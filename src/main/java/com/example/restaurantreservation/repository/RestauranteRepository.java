@@ -1,6 +1,6 @@
 package com.example.restaurantreservation.repository;
 
-import com.example.restaurantreservation.model.Restaurante;
+import com.example.restaurantreservation.domain.Restaurante;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

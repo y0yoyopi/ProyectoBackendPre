@@ -1,4 +1,4 @@
-package com.example.restaurantreservation.model;
+package com.example.restaurantreservation.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

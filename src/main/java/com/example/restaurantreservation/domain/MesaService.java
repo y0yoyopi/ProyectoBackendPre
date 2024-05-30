@@ -1,9 +1,7 @@
-package com.example.restaurantreservation.service;
+package com.example.restaurantreservation.domain;
 
 import com.example.restaurantreservation.dto.MesaDTO;
 import com.example.restaurantreservation.dto.MesaCreateDTO;
-import com.example.restaurantreservation.model.Mesa;
-import com.example.restaurantreservation.model.Restaurante;
 import com.example.restaurantreservation.repository.MesaRepository;
 import com.example.restaurantreservation.repository.RestauranteRepository;
 import org.springframework.beans.factory.annotation.Autowired;

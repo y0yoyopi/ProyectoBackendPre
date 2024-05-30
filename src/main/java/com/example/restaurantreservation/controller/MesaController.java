@@ -2,7 +2,7 @@ package com.example.restaurantreservation.controller;
 
 import com.example.restaurantreservation.dto.MesaDTO;
 import com.example.restaurantreservation.dto.MesaCreateDTO;
-import com.example.restaurantreservation.service.MesaService;
+import com.example.restaurantreservation.domain.MesaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
