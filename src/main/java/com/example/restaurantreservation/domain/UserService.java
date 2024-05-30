@@ -1,15 +1,15 @@
 package com.example.restaurantreservation.domain;
-import org.springframework.beans.factory.annotation.Autowired;
+/*import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;*/
 import org.springframework.stereotype.Service;
 
 @Service
-public class userService {
+public class UserService {
 
-    @Autowired
+    /*@Autowired
     private BaseUserRepository<User> userRepository;
     @Autowired
     private PassengerRepository passengerRepository;
@@ -33,5 +33,5 @@ public class userService {
                     .orElseThrow(() -> new UsernameNotFoundException("User not found"));
             return (UserDetails) user;
         };
-    }
+    }*/
 }

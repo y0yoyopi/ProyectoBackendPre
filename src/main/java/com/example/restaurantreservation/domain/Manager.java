@@ -10,7 +10,7 @@ public class Manager {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+/*
     private String nombre;
     private String area;
 
@@ -81,5 +81,5 @@ public class Manager {
             // Manejar el caso donde el manager no tiene restaurante asociado
             return null;
         }
-    }
+    }*/
 }
